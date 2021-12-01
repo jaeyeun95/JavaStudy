@@ -8,7 +8,7 @@ public class BufferedWriter {
 //		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 //		String s = "abcdefg";
 //		bw.wri
-//		
+//		ddf
 		
 	}
 
