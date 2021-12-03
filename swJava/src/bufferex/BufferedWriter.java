@@ -1,15 +1,14 @@
 package bufferex;
 
-import java.io.*;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class BufferedWriter {
 	public static void main(String[] args) throws IOException {
 		
-//		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-//		String s = "abcdefg";
-//		bw.wri
-//		ddf
+		// 파일에 데이터 쓰기
 		
+
 	}
 
 }
