@@ -6,6 +6,7 @@ import java.io.PrintStream;
 
 public class OutputStreamEx {
     public static void main(String[] args) {
+        // https://sidepower.tistory.com/267 참고 사이트
         PrintStream ps = null;
         OutputStream out = null;
         try {

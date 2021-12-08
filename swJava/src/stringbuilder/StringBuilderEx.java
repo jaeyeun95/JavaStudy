@@ -2,6 +2,8 @@ package stringbuilder;
 
 public class StringBuilderEx {
     public static void main(String[] args) { 
+        // 참고사이트
+        // https://tazz009.tistory.com/1026
         String str = "abcdefghijk"; 
         StringBuilder sb = new StringBuilder(str); // 문자열 -> StringBuilder 
         // p("문자열 String 로 변환 : " + sb.toString()); // 출력결과 : 문자열 String 로 변환 : abcdefghijk 
