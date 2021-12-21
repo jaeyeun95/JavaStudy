@@ -1,6 +1,5 @@
 package bufferex;
 
-import java.io.FileWriter;
 import java.io.IOException;
 
 public class BufferedWriter {

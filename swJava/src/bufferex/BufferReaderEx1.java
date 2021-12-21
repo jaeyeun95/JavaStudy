@@ -1,7 +1,6 @@
 package bufferex;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -23,7 +22,7 @@ public class BufferReaderEx1 {
 			
 			
 			// 파일의 한 줄 한 줄 읽어서 출력
-			String line = "";
+			// String line = "";
 //			for(int i =1; (line = br_f.readLine())!= null; i++) {
 //				System.out.println(line);
 //			}
