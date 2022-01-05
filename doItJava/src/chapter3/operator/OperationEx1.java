@@ -11,6 +11,8 @@ public class OperationEx1 {
         double avgScore = totalScore / 2.0;
         System.out.println(avgScore);
 
+        System.out.println("--------------------");
+
         int num = 10;
 
         System.out.println(+num);
