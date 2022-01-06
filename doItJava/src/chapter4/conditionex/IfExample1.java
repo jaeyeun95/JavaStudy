@@ -1,4 +1,4 @@
-package chapter4;
+package chapter4.conditionex;
 
 public class IfExample1 {
     public static void main(String[] args) {
