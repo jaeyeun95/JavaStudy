@@ -1,0 +1,2 @@
+package chapter14.exception;public class AutoCloseObj {
+}
