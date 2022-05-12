@@ -36,6 +36,7 @@ public class StringFormat {
         String orderId = "20220321-241231";
 
         System.out.println("orderId %s : " + String.format("%s", orderId.replace("-","")));
+        
 
 
     }
