@@ -19,5 +19,7 @@ public class ListToMap {
                 .collect(Collectors.toMap(Person::getName, Function.identity()));
 
         System.out.println("personMap : " + personMap.toString());
+
+
     }
 }
