@@ -19,5 +19,6 @@ public class FileOutputStreamTest2 {
             e.printStackTrace();
         }
         System.out.println("출력이 완료되었습니다.");
+
     }
 }
