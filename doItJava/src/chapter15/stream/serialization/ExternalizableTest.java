@@ -30,7 +30,7 @@ public class ExternalizableTest {
         FileOutputStream fos = new FileOutputStream("external.out");
         ObjectOutputStream oos = new ObjectOutputStream(fos);
 
-        
+
         try(fos; oos) {
             oos.writeObject(myDog);
         } catch (IOException e) {
