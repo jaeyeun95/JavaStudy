@@ -14,11 +14,17 @@ public class RandomAccessFileTest {
         rf.writeUTF("안녕하세요");
         System.out.println("파일 포인터 위치 : " + rf.getFilePointer());
 
+        rf.seek(0);
+        System.out.println("파일 포인터 위치 : " + rf.getFilePointer());
+
         int i = rf.readInt();
         double d = rf.readDouble();
         String str = rf.readUTF();
 
         System.out.println("파일 포인터 위치 : " + rf.getFilePointer());
+
         System.out.println(i);
+        System.out.println(d);
+        System.out.println(str);
     }
 }
