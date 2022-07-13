@@ -11,6 +11,7 @@ public class HumanTest {
         Human kim = new Human(++idx , "김유신", "010-1234-5679");
         Human hong = new Human(++idx , "홍길동", "010-1234-5678");
 
+
         List<Human> humanList = new ArrayList<>();
         humanList.add(kim);
         humanList.add(hong);
