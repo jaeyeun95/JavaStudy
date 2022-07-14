@@ -10,6 +10,7 @@ public class ArrayListStreamTest {
         sList.add("Tomas");
         sList.add("Edward");
         sList.add("Jack");
+        
 
         Stream<String> stream = sList.stream();
         stream.forEach(s -> System.out.println(s + " "));
