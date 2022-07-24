@@ -2,7 +2,7 @@ package finalproject;
 
 
 import java.util.ArrayList;
-import utils.Define;
+//import utils.Define;
 
 public class Subject {
     private String subjectName;
@@ -14,7 +14,7 @@ public class Subject {
     public Subject(String subjectName, int subjectId) {
         this.subjectName = subjectName;
         this.subjectId = subjectId;
-        this.gradeType = Define.AB_TYPE;
+//        this.gradeType = Define.AB_TYPE;
     }
 
     public String getSubjectName() {
