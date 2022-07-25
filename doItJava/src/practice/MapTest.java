@@ -12,5 +12,11 @@ public class MapTest {
         map.put("score", 0);
         System.out.println("1 : " + map);
 
+        int score = 10;
+        map.put("score", 20 + score);
+
+        System.out.println("1 : " + map);
+
+
     }
 }
