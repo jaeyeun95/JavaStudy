@@ -17,6 +17,14 @@ public class MapTest {
 
         System.out.println("1 : " + map);
 
+        String str = null;
+
+        Map<String, String> stringMap = new HashMap<>();
+        stringMap.put("test", "test1");
+        stringMap.put("test2", str);
+
+        System.out.println("2 : " + stringMap);
+
 
     }
 }
