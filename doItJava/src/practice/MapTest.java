@@ -24,7 +24,7 @@ public class MapTest {
         stringMap.put("test2", str);
 
         System.out.println("2 : " + stringMap);
-        
+
 
 
     }
