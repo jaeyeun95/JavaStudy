@@ -6,3 +6,4 @@ public class StringReplace {
         System.out.println("replace : " + basicDt.replace("-",""));
     }
 }
+
